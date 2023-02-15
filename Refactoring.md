@@ -10,4 +10,4 @@ You will be graded on the exhaustiveness and quality of your unit tests, the dep
 
 ## Your Explanation Here
 
-Having several nested conditions makes it hard to find what each scenario does, so using early returns we can get rid of those. Also, by doing it this way, you can read the code from top to bottom and have a better understanding of the whole function and its parameters.
+By using early returns we avoid nested conditions, which makes the code hard to understand and breaks the flow when reading it and breaking down all possible scenarios. Also, minor thing, but it doesn't need to run code that has no use, like if the function doesn't have an input, just return the default value.
