@@ -1,0 +1,1 @@
+Having several nested conditions makes it hard to find what each scenario does, so using early returns we can get rid of those. Also, by doing it this way, you can read the code from top to bottom and have a better understanding of the whole function and its parameters.
