@@ -17,8 +17,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 ## Your Breakdown Here
 
-Ticket 1:
-- Modify Agents table to add custom_id field
+### Ticket 1: Modify Agents table to add custom_id field
 
 We need to modify `Agents` table and add a `custom_id` string field, which shound not have any default value and can be null.
 
@@ -26,8 +25,7 @@ Acceptance criteria:
  * Have a new field named `custom_id` in `Agents` table
  * Nothing else breaks by this change
 
-Ticket 2:
-- Add Custom ID field in agent management page
+### Ticket 2: Add Custom ID field in agent management page
 
 We need to add a way for the customer to update the Custom ID for their agents. For this, add a new field in the Agent management section named "Custom ID", which value is a string and is not required. If a value is sent, save this value to the `custom_id` field in the corresponding row in `Agents` database.
 
@@ -35,8 +33,7 @@ Acceptance criteria:
  * Working new Custom ID field in Agent management page
  * Any data that the user input in said field, needs to be saved and retrieved from the database when looking at the agent profile.
 
-Ticket 3:
-- Use Agent Custom ID in generated PDF report
+### Ticket 3: Use Agent Custom ID in generated PDF report
 
 Currently we use a database generated ID when displaying an Agent information in the PDF report, we want to use the customer Custom ID assigned to each agent, if it's available.
 

@@ -9,3 +9,5 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+
+Having several nested conditions makes it hard to find what each scenario does, so using early returns we can get rid of those. Also, by doing it this way, you can read the code from top to bottom and have a better understanding of the whole function and its parameters.
